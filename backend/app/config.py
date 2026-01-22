@@ -5,7 +5,10 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     app_name: str = "AI-Powered Phishing Detection API"
-    backend_cors_origins: list[str] = ["*"]
+    backend_cors_origins: list[str] = [
+        "https://ai-powered-phishing-detection-system-2.onrender.com"
+    ]
+
 
     # Base directory
     base_dir: str = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
