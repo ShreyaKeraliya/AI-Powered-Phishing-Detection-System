@@ -85,42 +85,39 @@ export default function Home() {
 
       {/* DETECTION TOOLS */}
       <section className="cards" style={{ marginBottom: "1.2rem" }}>
-        <Link href="/email" className="card">
+        <Link href="/email" className="card card-link">
           <h2>Email Phishing Detector</h2>
           <p>
             Analyze suspicious email content using NLP-based machine learning
-            models such as TF-IDF with classical classifiers and DistilBERT for
-            contextual understanding.
+            models such as TF-IDF and DistilBERT.
           </p>
-
-          <p
-            style={{
-              marginTop: "0.7rem",
-              fontSize: "0.85rem",
-              opacity: 0.75,
-            }}
-          >
+        
+          <p className="card-meta">
             Focus: language patterns, social engineering, intent detection
           </p>
+        
+          <button className="card-btn">
+            Analyze Email →
+          </button>
         </Link>
 
-        <Link href="/url" className="card">
+
+        <Link href="/url" className="card card-link">
           <h2>URL Phishing Analyzer</h2>
           <p>
             Inspect URLs using lexical and structural features with a
-            Random-Forest-based model to identify malicious links.
+            Random-Forest-based model.
           </p>
-
-          <p
-            style={{
-              marginTop: "0.7rem",
-              fontSize: "0.85rem",
-              opacity: 0.75,
-            }}
-          >
+        
+          <p className="card-meta">
             Focus: interpretable features and explainable predictions
           </p>
+        
+          <button className="card-btn">
+            Analyze URL →
+          </button>
         </Link>
+
       </section>
 
       {/* CLOSING TRUST SECTION */}
