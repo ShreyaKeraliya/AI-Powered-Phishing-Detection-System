@@ -482,11 +482,11 @@ textarea {
 }
 @media (max-width: 640px) {
 
-  /* Reduce background visual noise */
-  body {
-    animation: none;
-    background-size: cover;
-  }
+ body {
+  animation: gradientFlow 5s ease infinite; /* slower, softer */
+  background-size: 300% 300%;
+}
+
 
   body::before {
     background-size: 40px 40px;
