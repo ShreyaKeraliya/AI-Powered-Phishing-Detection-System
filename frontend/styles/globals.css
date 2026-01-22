@@ -429,6 +429,8 @@ textarea {
 
 .desktop-nav {
   display: flex;
+  gap: 1.2rem; 
+
 }
 
 .menu-btn {
