@@ -153,6 +153,28 @@ a {
   border-color: #38bdf8;
 }
 
+.card-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.card-btn {
+  margin-top: 1rem;
+  align-self: flex-start;
+  background: rgba(59,130,246,0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59,130,246,0.4);
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.card-link:hover .card-btn {
+  background: rgba(59,130,246,0.25);
+}
+
+
 
 .top-nav {
   margin-bottom: 1.25rem;
