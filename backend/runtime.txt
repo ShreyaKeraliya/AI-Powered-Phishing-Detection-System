@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 python-3.10.13
+=======
+python-latest
+>>>>>>> 15f6dd93ac55acf899f63478ccfdf65e4bd2c690

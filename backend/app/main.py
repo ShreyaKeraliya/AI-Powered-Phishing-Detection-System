@@ -5,7 +5,6 @@ from .config import get_settings
 from .api.email_routes import router as email_router
 from .api.url_routes import router as url_router
 
-
 def create_app() -> FastAPI:
     settings = get_settings()
 
