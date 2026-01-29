@@ -29,6 +29,33 @@ export default function About() {
       </section>
 
       <section className="panel">
+        <h2>About the Developer</h2>
+        <p className="panel-subtitle">
+          Built, deployed, and maintained as a hands-on learning project.
+        </p>
+      
+        <p>
+          This project was designed and developed by me as part of my journey in
+          cybersecurity, with a strong focus on <strong>phishing detection</strong>,
+          <strong>machine learning integration</strong>, and real-world security
+          challenges.
+        </p>
+      
+        <p>
+          From data preprocessing and model experimentation to backend integration
+          and deployment, every component of this system was built independently to
+          gain practical experience rather than relying on prebuilt solutions.
+        </p>
+      
+        <p>
+          The platform is currently <strong>live</strong> and serves as a demonstrable
+          project showcasing my interest in applied cybersecurity, ML-driven security
+          analysis, and explainable detection systems.
+        </p>
+      </section>
+
+
+      <section className="panel">
         <h2>Learning Journey</h2>
         <p className="panel-subtitle">
           This was not a plug-and-play ML project.
