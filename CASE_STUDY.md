@@ -34,6 +34,9 @@ The goal of this project was to design a system that:
 | Browser session  | Malicious URLs    | Malware delivery          |
 | Trust in system  | False positives   | User fatigue / bypass     |
 
+The system prioritizes minimizing false negatives while controlling false positives to maintain user trust.
+
+
 
 Attackers are assumed to:
 
@@ -59,8 +62,6 @@ Attackers are assumed to:
 
 ```
 
-### Design rationale (good content)
-```md```
 ### Design Rationale
 
 - Frontend handles user interaction and visualization
@@ -133,6 +134,8 @@ The system design accounts for:
 - URL model successfully identified common obfuscation techniques
 
 Evaluation focused on **practical effectiveness**, not benchmark chasing.
+
+No claims are made about state-of-the-art performance, as the focus was on deployability and robustness.
 
 
 ## Limitations & Future Work
